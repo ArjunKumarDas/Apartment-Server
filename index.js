@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 5000
 //db-passs: xyx12345, user-name team09   dbname: apartmentHunt    collection: clientInfo 
 
 app.get('/', (req, res) => {
